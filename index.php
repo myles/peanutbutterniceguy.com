@@ -24,13 +24,13 @@
                 <h3 class="text-muted">Peanut Butter Nice Guy</h3>
             </div>
             
-            <div class="row">
+            <div class="row sites">
                 <?php
     		    foreach ( $dir as $d ) {
     			    $dirsplit = explode('/', $d);
     			    $dirname = $dirsplit[count($dirsplit)-2];
 
-    				printf( '<div class="col-md-4 %1$s">', $dirname );
+    				printf( '<div class="col-md-4 site %1$s">', $dirname );
 
     		        foreach( glob( $d ) as $file )  {
 
