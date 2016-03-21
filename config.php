@@ -2,7 +2,8 @@
 
 /**
 *  
-*  This is just a simple config file to store your web root and a few other items
+*  This is just a simple config file to store your web root and a few other
+*  items.
 *  
 *  Change "/www/sites/*" to the directory where you keep your sites. 
 *  Add multiple directories like this:
@@ -13,10 +14,10 @@
 
 
 /** directory name(s) */
-$dir = array("/Users/username/Sites/*");
+$dir = array("/srv/www/peanutbutterniceguy.com*");
 					
 /** Your local top level domain */
-$tld = 'dev';
+$tld = 'peanutbutterniceguy.com';
 
 /*
 *
@@ -28,20 +29,19 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 
 /*
 *
-*  Development tools you want displayed in the top navigation bar. Each item should be
-*  an array containing keys 'name' and 'url'. An example is included (commented out) below.
+*  Development tools you want displayed in the top navigation bar. Each item
+*  should be an array containing keys 'name' and 'url'. An example is included
+*  (commented out) below.
 *
 */
 $devtools = array(
-//	array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
-	array( 'name' => 'Web Host Admin', 'url' => 'http://example.com/' ),
-	array( 'name' => 'Github', 'url' => 'http://github.com/' ),
+    // array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
 	);
 
 /*
 *
-*  Options for sites being displayed. These are completely optional, if you don't set
-*  anything there are default options which will take over.
+*  Options for sites being displayed. These are completely optional, if you
+*  don't set anything there are default options which will take over.
 *
 *  If you only want to specify a display name for a site you can use the format:
 *
@@ -53,9 +53,8 @@ $devtools = array(
 *
 */			
 $siteoptions = array(
-//  'dirname' => 'Display Name',
-//	'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' ),
-
+    // 'dirname' => 'Display Name',
+    // 'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' )
 	);
 
 /*
@@ -65,4 +64,4 @@ $siteoptions = array(
 *  your directories will be hidden.
 * 
 */
-$hiddensites = array( 'home', );
+$hiddensites = array( 'www', );
