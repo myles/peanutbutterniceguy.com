@@ -54,6 +54,16 @@ body {
   margin-top: 28px;
 }
 
+.iconic {
+	height: 1.5em;
+	width: 1.5em;
+	vertical-align: middle;
+}
+
+.iconic-heart * {
+	fill: #da3a35;
+}
+
 @media screen and (min-width: 768px) {
   .header,
   .sites,
