@@ -14,8 +14,8 @@
 
 
 /** directory name(s) */
-$dir = array("/srv/www/peanutbutterniceguy.com*");
-					
+$dir = array("/srv/www/peanutbutterniceguy.com/*");
+
 /** Your local top level domain */
 $tld = 'peanutbutterniceguy.com';
 

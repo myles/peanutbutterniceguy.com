@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Local</title>
+        <title>Peanut Butter Nice Guy</title>
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -17,7 +17,7 @@
 
 		    <header>
 
-			    <h1>My Local Sites</h1>
+			    <h1>Peanut Butter Nice Guy</h1>
 
 			    <nav>
 			        <ul>
