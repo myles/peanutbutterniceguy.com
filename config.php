@@ -1,15 +1,14 @@
 <?php
-
 /**
-*  
+*
 *  This is just a simple config file to store your web root and a few other
 *  items.
-*  
+*
 *  Change "/www/sites/*" to the directory where you keep your sites. 
 *  Add multiple directories like this:
-*  
+*
 *  $dir = array("/www/sites1/*","/www/sites2/*");
-*  
+*
 */
 
 
@@ -17,7 +16,7 @@
 $dir = array("/srv/www/peanutbutterniceguy.com/*");
 
 /** Your local top level domain */
-$tld = 'peanutbutterniceguy.com';
+$tld = '';
 
 /*
 *
@@ -35,8 +34,8 @@ $icons = array( 'apple-touch-icon.png', 'favicon.ico' );
 *
 */
 $devtools = array(
-    // array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
-	);
+  // array( 'name' => 'Tool', 'url' => 'http://example.com/' ),
+  );
 
 /*
 *
@@ -47,21 +46,23 @@ $devtools = array(
 *
 *  'sitedir' => 'Display Name',
 *
-*  Otherwise, if you want to set additional options you'll use an array for the options.
+*  Otherwise, if you want to set additional options you'll use an array for the
+*  options.
 *
 *  'sitedir' => array( 'displayname' => 'Display Name', 'adminurl' => 'http://example.sites.dev/admin' ),
 *
-*/			
+*/
 $siteoptions = array(
-    // 'dirname' => 'Display Name',
-    // 'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' )
-	);
+  // 'dirname' => 'Display Name',
+  // 'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' )
+  'tweetlength' => 'Tweet Length Calculator'
+  );
 
 /*
 *
-*  Directory names of sites you want to hide from the page. If you're using multiple directories
-*  in $dir be aware that any directory names in the array below that show up in any of 
-*  your directories will be hidden.
-* 
+*  Directory names of sites you want to hide from the page. If you're using
+*  multiple directories in $dir be aware that any directory names in the array
+*  below that show up in any of your directories will be hidden.
+*
 */
 $hiddensites = array( 'www', );
