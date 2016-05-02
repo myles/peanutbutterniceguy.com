@@ -5,9 +5,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <title>Peanut Butter Nice Guy</title>
-        
+
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
@@ -23,7 +23,7 @@
                 </ul>
                 <h3 class="text-muted">Peanut Butter Nice Guy</h3>
             </div>
-            
+
             <div class="row sites">
                 <?php
     		    foreach ( $dir as $d ) {

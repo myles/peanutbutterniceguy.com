@@ -55,7 +55,8 @@ $devtools = array(
 $siteoptions = array(
   // 'dirname' => 'Display Name',
   // 'dirname' => array( 'displayname' => 'DisplayName', 'adminurl' => 'http://something/admin' )
-  'tweetlength' => 'Tweet Length Calculator'
+  'tweetlength' => 'Tweet Length Calculator',
+  'powerpuff' => 'Powerpuff Myles'
   );
 
 /*
