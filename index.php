@@ -10,6 +10,21 @@
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(["setDomains", ["*.peanutbutterniceguy.com"]]);
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//piwik.mylesb.ca/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 5]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script> 
     </head>
     <body>
         <div class="container">
@@ -95,5 +110,7 @@
                 <p class="text-muted">Made by <a href="https://mylesb.ca/">Myles Braithwaite</a> with <svg xmlns="http://www.w3.org/2000/svg" class="iconic iconic-heart" width="128" height="128" viewBox="0 0 128 128"><g class="iconic-heart-lg iconic-container iconic-lg" data-width="128" data-height="112" display="inline" transform="translate(0 8)"><path d="M118.041 9.959c-6.152-6.153-14.652-9.959-24.041-9.959-9.389 0-17.889 3.805-24.041 9.959-2.361 2.36-4.372 5.068-5.959 8.037-1.587-2.969-3.597-5.677-5.959-8.037-6.152-6.153-14.652-9.959-24.041-9.959-9.389 0-17.889 3.805-24.041 9.959-6.154 6.152-9.959 14.652-9.959 24.041 0 9.389 3.805 17.889 9.959 24.041l54.041 53.959 54.041-53.959c6.154-6.152 9.959-14.652 9.959-24.041 0-9.389-3.805-17.889-9.959-24.041z" class="iconic-property-fill" /></g></svg> in Toronto.</p>
             </div>
         </footer>
+        
+        <noscript><p><img src="//piwik.mylesb.ca/piwik.php?idsite=5" style="border:0;" alt="" /></p></noscript>
     </body>
 </html>
